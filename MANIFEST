@@ -1,0 +1,8 @@
+Build.PL
+Changes.txt
+MANIFEST			This list of files
+META.yml
+README
+examples/sha1.cgi
+lib/Javascript/SHA1.pm
+t/test.t

@@ -1,0 +1,8 @@
+Revision history for Perl extension Javascript::SHA1.
+
+1.00  Fri Mar  05 10:23:29 2004
+	- Original version
+	- The Javascript is Paul Johnston's version, from his web site:
+		http://pajhome.org.uk/crypt/md5
+	- There are 3 functions, str2hex_sha1(), str2b64_sha1() and str2str_sha1(), to return various versions
+		of the digest

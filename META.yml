@@ -1,0 +1,9 @@
+--- #YAML:1.0
+name: Javascript-SHA1
+version: 1.00
+author:
+  - Ron Savage <ron@savage.net.au>
+abstract: Calculate the SHA1 digest of a CGI form field
+license: artistic
+provides: {}
+generated_by: Module::Build version 0.24
