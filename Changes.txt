@@ -1,5 +1,9 @@
 Revision history for Perl extension Javascript::SHA1.
 
+1.01  Tue Jul 20 20:43:00 2004
+	- Change Makefile.PL to coexist with Module::Build
+	- Add t/pod.t to test all PODs
+
 1.00  Fri Mar  05 10:23:29 2004
 	- Original version
 	- The Javascript is Paul Johnston's version, from his web site:
