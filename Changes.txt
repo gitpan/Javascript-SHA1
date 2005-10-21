@@ -1,5 +1,16 @@
 Revision history for Perl extension Javascript::SHA1.
 
+1.02  Fri Oct 21 14:27:00 2005
+	- No code changes (ouside new() ), so no need to upgrade
+	- Simplify code in new() to no longer check if caller is an object
+		as per the new standard on such matters. Personally, I don't care :-)
+	- Add more things to MANIFEST.SKIP
+	- Regenerate META.yml with Module::Build V 0.2611 to correct a faulty
+		META.yml output by V 0.24 which falsely said 'provides: {}',
+		which in turn stopped the PAUSE indexer from finding the SHA1.pm file,
+		which in turn meant this module was omitted from the master index:
+		ftp://pause.perl.org/pub/PAUSE/modules/01modules.index.html
+
 1.01  Tue Jul 20 20:43:00 2004
 	- Change Makefile.PL to coexist with Module::Build
 	- Add t/pod.t to test all PODs
