@@ -1,5 +1,14 @@
 Revision history for Perl extension Javascript::SHA1.
 
+1.03  Sat Aug 04 13:52:00 2007
+	- Extend method javascript() to take a second parameter, which is the
+		number of the CGI form within the HTML page. The allows the module to
+		operate on an HTML page containing more than one CGI form.
+		The default value is 0, which is the first form, and perhaps the only form,
+		on the page. So, no need to upgrade if you only have one form per page
+	- Update the docs to describe this new parameter
+	- Note: Original patch kindly supplied by Thomas Goik
+	
 1.02  Fri Oct 21 14:27:00 2005
 	- No code changes (ouside new() ), so no need to upgrade
 	- Simplify code in new() to no longer check if caller is an object
