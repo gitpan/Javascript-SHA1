@@ -1,5 +1,8 @@
 Revision history for Perl extension Javascript::SHA1.
 
+1.04  Thu Oct 23 18:11:00 2008
+	- Remove ^M chars from source, including within the Javascript
+
 1.03  Sat Aug 04 13:52:00 2007
 	- Extend method javascript() to take a second parameter, which is the
 		number of the CGI form within the HTML page. The allows the module to

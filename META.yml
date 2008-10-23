@@ -1,6 +1,6 @@
 ---
 name: Javascript-SHA1
-version: 1.03
+version: 1.04
 author:
   - 'Ron Savage <ron@savage.net.au>'
 abstract: Calculate the SHA1 digest of a CGI form field
@@ -13,8 +13,8 @@ build_requires:
 provides:
   Javascript::SHA1:
     file: lib/Javascript/SHA1.pm
-    version: 1.03
-generated_by: Module::Build version 0.2805
+    version: 1.04
+generated_by: Module::Build version 0.280801
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
   version: 1.2
