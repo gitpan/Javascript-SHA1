@@ -1,5 +1,16 @@
 Revision history for Perl extension Javascript::SHA1.
 
+1.07  Sun Feb 21 12:55:28 2010
+	- Remove text 'All rights reserved' (for Debian licensing).
+	- Remove POD heads 'Required Modules' and 'Changes'.
+
+1.06  Wed Feb 10 14:02:11 2010
+	- MANIFEST.SKIP updated to exclude MYMETA.yml. Add MYMETA.yml.
+
+1.05  Fri Nov 13 13:20:00 2009
+	- Run dos2unix
+	- Rename Changes.txt to CHANGES
+
 1.04  Thu Oct 23 18:11:00 2008
 	- Remove ^M chars from source, including within the Javascript
 

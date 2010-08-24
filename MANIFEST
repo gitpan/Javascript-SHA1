@@ -1,6 +1,6 @@
 Build.PL
 Changelog.ini
-Changes.txt
+CHANGES
 examples/sha1.cgi
 lib/Javascript/SHA1.pm
 Makefile.PL
